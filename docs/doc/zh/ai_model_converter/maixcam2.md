@@ -68,7 +68,7 @@ scale = 0.00392156862745098, 0.00392156862745098, 0.00392156862745098
 
 YOLO11/YOLOv8 请看[离线训练 YOLO11/YOLOv8](../vision/customize_model_yolov8.md).
 
-分类模型一般来说取最后一个输出名称就行，不过如果有`osftmax`的话，建议不把`softmax`包含在模型里面，即取`softmax`前一层的输出名，下图是没有`softmax`层的所以直接取最后一层即可。
+分类模型一般来说取最后一个输出名称就行，不过如果有`softmax`的话，建议不把`softmax`包含在模型里面，即取`softmax`前一层的输出名，下图是没有`softmax`层的所以直接取最后一层即可。
 ![](../../assets/mobilenet_top.png)
 
 
